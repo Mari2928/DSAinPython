@@ -1,7 +1,7 @@
 class Solution(object):
     def snakesAndLadders(self, board):
         """
-        :type board: List[List[int]]
+        :type board: List[List[int]] 
         :rtype: int
 
         Input: board = [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
