@@ -13,7 +13,7 @@ class Solution(object):
         Input: head = [1,1,1,2,3]
         Output: [2,3]
         """
-        dummy = ListNode(0)
+        dummy = ListNode(0) # to delete node 1
         dummy.next = head
         prev = dummy
         while head and head.next:
